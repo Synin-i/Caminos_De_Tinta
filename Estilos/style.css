@@ -706,10 +706,3 @@ footer {
         transform: translate(-50%, 0);
     }
 }
-/* =========================================
-   10. DISEÑO RESPONSIVE
-   ========================================= */
-.Contenedor-Pagina-Completa {
-    transform-origin: top center;
-}
-
