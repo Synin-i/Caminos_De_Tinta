@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminos de Tinta | Historias Interactivas</title>
+    <link rel="stylesheet" href="Estilos/style.css">
+</head>
+
+<body>
+    
+    <video class="video-fondo" src="Videos/Caminos_De_Tinta.mp4" autoplay loop muted playsinline></video>
+        <div class="musica-flotante">
+            <input type="checkbox" id="abrir-musica" class="check-musica">
+            <label for="abrir-musica" class="boton-musica">
+                🎵
+            </label>
+            <div class="control-musica-fondo">
+                <span class="etiqueta-musica">🎵 Música de fondo</span>
+                <audio src="Música/Caminos_De_Tinta.mp3" autoplay loop controls class="audio-fondo-miniatura"
+                    controlsList="nodownload noplaybackrate"></audio>
+            </div>
+        </div>
+    <div class="Contenedor-Pagina-Completa">
+
+        <header class="contenedor-header">
+            <div class="logo">
+                <span class="logo-icono">✒️</span>
+                Caminos <span class="logo-resalte">de Tinta</span>
+            </div>
+            <nav class="menu-central">
+                <a href="#presentacion">El Proyecto</a>
+                <a href="#cuentos">Catálogo</a>
+                <div class="contenedor-autores">
+                    <input type="checkbox" id="check-autores" class="checkbox-invisible">
+                    <label for="check-autores" class="btn-autores-css">Autores ▼</label>
+                    <div class="dropdown-autores">
+                        <span>Joneyli Rous Condarco Luna</span>
+                        <span>Piermarco Alessio Cordova Luna</span>
+                        <span>Limberth Alfredo Ilaluque Diaz</span>
+                    </div>
+                </div>
+            </nav>
+            <div class="control-contacto">
+                <a href="mailto:soporte@caminosdetinta.com" class="btn-contacto">Contacto</a>
+            </div>
+        </header>
+        <section class="seccion-presentacion" id="presentacion">
+            <div class="frase-flotante pos-1">
+                <div class="contenedor-citas-css">
+                    <p class="cita-animada c1">“Nunca conoceremos todas las historias que pudieron ser. Solo podemos
+                        continuar aquella que elegimos vivir.”</p>
+                    <p class="cita-animada c2">"Cada paso parece casualidad hasta que miramos hacia atrás."</p>
+                    <p class="cita-animada c3">"Incluso en la oscuridad más profunda, una sola chispa de valentía puede
+                        encender un nuevo camino."</p>
+                    <p class="cita-animada c4">"Nuestras vidas se definen por las oportunidades, incluso por las que
+                        perdemos."</p>
+                </div>
+            </div>
+            <div class="frase-flotante pos-2">
+                <div class="contenedor-citas-css">
+                    <p class="cita-animada c1">"A menudo encontramos nuestro destino por los caminos que tomamos para
+                        evitarlo".</p>
+                    <p class="cita-animada c2">"Entre el camino que elegimos y el tiempo que nos queda, sucede la vida."
+                    </p>
+                    <p class="cita-animada c3">"El final de un capítulo es tan solo el comienzo de otra página por
+                        escribir."</p>
+                    <p class="cita-animada c4">"No es en las comodidades donde se prueba la fuerza de un alma, sino en
+                        el
+                        momento del peligro y la decisión."</p>
+                </div>
+            </div>
+            <div class="contenido-tarjeta-principal">
+                <h1>Historias que laten al ritmo de tus pasos.</h1>
+                <p>Más que una editorial, somos custodios de mundos que responden a tu voz. Sumérgete en páginas que se
+                    niegan a permanecer estáticas, donde tus elecciones iluminan la oscuridad de los momentos críticos.
+                    Aquí
+                    no hay finales inevitables, cada paso que das altera el hilo del tiempo y da forma al camino.</p>
+                <a href="#cuentos" class="btn-primario">Explorar Historias</a>
+            </div>
+            <div class="frase-flotante pos-3">
+                <div class="contenedor-citas-css">
+                    <p class="cita-animada c1">"Lo inevitable dura hasta que alguien decide cambiarlo."</p>
+                    <p class="cita-animada c2">"El tiempo nos lleva por caminos que solo nuestras decisiones pueden
+                        cambiar."</p>
+                    <p class="cita-animada c3">"Los caminos más difíciles suelen llevarnos a los destinos más
+                        maravillosos."
+                    </p>
+                    <p class="cita-animada c4">"El futuro nos tortura y el pasado nos encadena, por eso nos escapamos
+                        del
+                        presente, ávidos de un destino que solo nuestras elecciones pueden forjar."</p>
+                </div>
+            </div>
+            <div class="frase-flotante pos-4">
+                <div class="contenedor-citas-css">
+                    <p class="cita-animada c1">"A veces el miedo no está en equivocarnos, sino en descubrir qué habría
+                        pasado si elegíamos distinto."</p>
+                    <p class="cita-animada c2">"No todas las decisiones llegan con certeza. Algunas llegan con coraje."
+                    </p>
+                    <p class="cita-animada c3">"La valentía no es la ausencia de miedo, sino el juicio de que algo es
+                        más
+                        importante que el miedo."</p>
+                    <p class="cita-animada c4">"El coraje no siempre ruge; a veces es la voz tranquila al final del día
+                        que
+                        dice: 'mañana lo intentaré de nuevo'."</p>
+                </div>
+            </div>
+            <div class="indicador-scroll">
+                <span>Descubre los caminos</span>
+                <div class="flecha-animada">↓</div>
+            </div>
+        </section>
+        <section id="cuentos" class="catalogo">
+            <h2>Nuestras Historias Disponibles</h2>
+            <div class="contenedor-cuentos">
+                <div class="tarjeta-cuento">
+                    <img src="Imágenes/Portadas/El_Viaje_De_Nami.png" alt="Portada de El Viaje de Nami" title="El Viaje de Nami"
+                        class="tarjeta-imagen">
+                    <div class="tarjeta-contenido">
+                        <h3>El Viaje de Nami</h3>
+                        <p>Un día tranquilo en casa se convierte en una aventura extraordinaria. Acompaña a la valiente
+                            perrita Nami a través de caminos ocultos y guardianes dormilones. Cada decisión que tomes
+                            guiará
+                            sus huellas en este sendero.
+                            ¿La ayudarás a encontrar el camino correcto?</p>
+                        <a href="Historias/El_Viaje_De_Nami/Camino_Bosque_del_Ocaso.html" class="btn-leer">Comenzar
+                            Aventura</a>
+                    </div>
+                </div>
+                <div class="tarjeta-cuento">
+                    <img src="Imágenes/Portadas/El_Secreto_Del_Bosque_De_Varnok.png" title="El Secreto del Bosque de Varnok"
+                        alt="El Secreto del Bosque de Varnok" class="tarjeta-imagen">
+                    <div class="tarjeta-contenido">
+                        <h3>El Secreto del Bosque de Varnok</h3>
+                        <p>Todos en Latveria temen entrar al Bosque de Varnok. Acompaña a Ayla a descubrir la verdad
+                            sobre
+                            sus criaturas mágicas y toma las decisiones correctas para proteger el Corazón de Aether
+                            antes
+                            de que su luz se apague para siempre.</p>
+                        <a href="Historias/El_Bosque_De_Varnok/El_Bosque_Prohibido.html" class="btn-leer">Adentrarse en
+                            el
+                            bosque</a>
+                    </div>
+                </div>
+                <div class="tarjeta-cuento">
+                    <img src="Imágenes/Portadas/Habitación_307.png" alt="Habitación 307" title="Habitación 307" class="tarjeta-imagen">
+                    <div class="tarjeta-contenido">
+                        <h3>Habitación 307</h3>
+                        <p>Una rutinaria madrugada de trabajo solitario se quiebra al recibir un inquietante mensaje
+                            anónimo
+                            y una fotografía imposible de ti mismo. Atrapado en tu propio departamento, deberás
+                            enfrentarte
+                            a una anomalía que se alimenta del pánico. Cada decisión alterará la realidad. ¿Lograrás
+                            sobrevivir a la noche o abrirás la puerta equivocada?</p>
+                        <a href="Historias/Habitación_307/La_Rutina_Cortada.html" class="btn-leer">Comenzar
+                            Pesadilla</a>
+                    </div>
+                </div>
+                <div class="tarjeta-cuento">
+                    <img src="Imágenes/Portadas/Shiro_Y_El_Fin_Del_Iovierno.png" alt="Shiro y el fin del Invierno" title="Shiro y el fin del Invierno"
+                        class="tarjeta-imagen">
+                    <div class="tarjeta-contenido">
+                        <h3>Shiro y el fin del Invierno</h3>
+                        <p>Derek siempre prefirió la tranquilidad de la rutina, llevando una vida sin demasiadas
+                            responsabilidades. Todo cambia cuando Shiro, un pequeño conejo, aparece inesperadamente en
+                            su
+                            vida. A partir de entonces, deberá adaptarse a nuevas responsabilidades y descubrir que
+                            algunas
+                            compañías llegan sin ser planeadas, pero pueden dejar una huella importante.</p>
+                        <a href="Historias/Shiro_Y_El_Fin_Del_Invierno/Inicio_La_Intruisión_En_El_Santuario.html"
+                            class="btn-leer">Dar el Primer Paso</a>
+                    </div>
+                </div>
+                <div class="tarjeta-cuento">
+                    <img src="Imágenes/Portadas/Infección_Cero.png" alt="Infeccion: Cero" title="Infeccion: Cero" class="tarjeta-imagen">
+                    <div class="tarjeta-contenido">
+                        <h3>Infección: Cero</h3>
+                        <p>En plena madrugada, una misteriosa infección desata el caos en la ciudad y convierte a sus
+                            habitantes en una amenaza. Atrapado en tu departamento, tendrás que tomar decisiones rápidas
+                            para escapar y encontrar una ruta segura. Cada elección puede acercarte al rescate o
+                            llevarte a
+                            un destino fatal.
+                            ¿Lograrás sobrevivir hasta que llegue el rescate?</p>
+                        <a href="Historias/Infección_Cero/Brotes_En_La_Penumbra.html" class="btn-leer">Enfrentar la
+                            infección</a>
+                    </div>
+                </div>
+                <div class="tarjeta-cuento">
+                    <img src="Imágenes/Portadas/Odisea_En_El_Minibús_834.png" alt="Odisea en el Minibús 834" title="Odisea en el Minibus 834"
+                        class="tarjeta-imagen">
+                    <div class="tarjeta-contenido">
+                        <h3>Odisea en el Minibus 834</h3>
+                        <p>Sobrevivir a la universidad es fácil; el verdadero reto es pagar 3 bolivianos con un billete
+                            de
+                            100 en el minibús 834.
+                            Acompaña a Alía en esta odisea urbana. ¿Fingirás dormir o enfrentarás la
+                            furia del chofer? Elige tu camino y ayúdala a llegar a casa con su orgullo y su cambio
+                            intactos.</p>
+                        <a href="Historias/Odisea_En_El_Minibús_834/Inicio-Retorno_En_Hora_Pico.html"
+                            class="btn-leer">Subirse al Minibús</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2026 Caminos de Tinta. Proyecto de Diseño Web 1.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
