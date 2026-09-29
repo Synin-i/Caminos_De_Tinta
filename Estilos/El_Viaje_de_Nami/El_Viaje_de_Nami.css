@@ -30,7 +30,7 @@ body {
     align-items: center;
     padding: 100px 40px 40px 40px;
     transform: scale(0.9);
-    transform-origin: (center center);
+    transform-origin: center center;
 }
 
 
